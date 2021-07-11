@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>SpringMVC笔记</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/tags.css"/>
+		<link rel="icon" href="Images/a6b5fbec709aa7bd9e5bc8378397d41.png"/>
+	</head>
+	<body>
+		<script src="js/page.js"></script>
+		<script type="text/javascript" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
+		<div class="head fix">
+			<div class="t1 fix">
+				<div class="tl"><a href="" target="_self">Hello  |  World</a></div>
+				<!-- support.html -->
+				<div class="tr">
+					<ul class="ur">
+						<li><a href="index.html">主页</a></li>
+						<li><a href="about.html">Java笔记</a></li>
+						<li><a href="article.html">Spring笔记</a></li>
+						<li><a href="tutirial.html">SpringMVC笔记</a></li>
+						<li><a href="archive.html">MyBatis笔记</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="tt">
+				<div class="t2">MVC</div>
+				<div class="t3">Tutorial | 分享</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="c1">
+				<p class="title">SpringMVC常用注解:</p>
+				<ul>
+				<li>@Controller 负责注册一个bean 到spring 上下文中。</li>
+				<li>@RequestMapping 注解为控制器指定可以处理哪些 URL 请求。</li>
+				<li>@RequestBody 该注解用于读取Request请求的body部分数据，使用系统默认配置的HttpMessageConverter进行解析，然后把相应的数据绑定到要返回的对象上 ，再把HttpMessageConverter返回的对象数据绑定到 controller中方法的参数上。</li>
+				<li>@ModelAttribute 在方法定义上使用 @ModelAttribute 注解：Spring MVC 在调用目标处理方法前，会先逐个调用在方法级上标注了@ModelAttribute 的方法。</li>
+				<li>@PathVariable 在处理方法入参处使用 @RequestParam 可以把请求参 数传递给请求方法。</li>
+				
+				</ul>
+			</div>
+			
+		</div>
+
+		
+	</body>
+</html>

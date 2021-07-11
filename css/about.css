@@ -1,0 +1,33 @@
+			.t2{
+				letter-spacing: 0px;
+			}
+			.content a{
+				color: cornflowerblue;
+				text-decoration: none;
+			}
+			.content p{
+				color: grey;
+				font-family: "楷体";
+				font-size: 20px;
+				margin-bottom:10px ;
+			}
+			.title{
+				font-family: "微软雅黑";
+				color: black;
+				font-size: 35px;
+				font-weight: 700;
+				margin-top:35px ;
+			}
+			.img{
+				margin: 0 auto;
+				width: 200px;
+				height: 300px;
+				background-image: url(img/weibo.png);
+			}
+			.content{
+				margin: 50px auto;
+				width: 50%;
+			}
+			.head{
+				background-color: #208C5B;
+			}

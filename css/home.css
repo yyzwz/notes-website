@@ -1,0 +1,39 @@
+			.content{
+				width: 60%;
+				height: 300px;
+				margin: 50px auto;
+			}
+			.h2{
+				font-family: "楷体";
+				font-size: 26px;
+				font-weight: 600;
+				margin-bottom: 15px;
+			}
+			.h2:hover{
+				color: #337ab7;
+			}
+			.text{
+				font-family: "宋体";
+				font-size: 16px;
+				font-weight: 600px;
+				margin-bottom: 10px;
+				color: #a3a3a3;
+				height: 60px;
+				width: 100%;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+			.text:hover{
+				color:#2b79c3;
+			}
+			.text_en{
+				font-family: "lora","times new roman";
+				font-size: 18px;
+				font-weight: 400px;
+				margin-bottom: 10px;
+				color: #808080;
+			}
+			.item{
+				margin-bottom: 30px;
+				border-bottom: 1px solid gainsboro;
+			}

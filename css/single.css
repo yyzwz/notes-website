@@ -1,0 +1,29 @@
+			.content{
+				width: 50%;
+				margin: 50px auto;
+				color: #404040;
+				font-family: 'Lato', "Open Sans", "PingFang SC", "Microsoft YaHei", sans-serif;
+				padding-top: 20px;
+				background-color: rgba(221, 221, 221, 0.10);
+			}
+			.content p{
+				margin-bottom: 20px;
+			}
+			.title{
+				font-size: 40px;
+				font-family: "楷体";
+				color: white;
+				font-weight: 600;
+			}
+			.date{
+				font-family: "times new roman";
+				font-size: 20px;
+				color: white;
+				margin-top: 15px;
+				margin-left: 10px;
+			}
+			.ti{
+				margin: 50px auto;
+				width: 50%;	
+			}
+			
